@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-header{
+    height: 450px;
+    background: url(./images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-header nav{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+.nav-header nav ul{
+    float: right;
+    margin-top: 10px;
+}
+.nav-header nav ul li {
+    list-style: none;
+    margin-right: 40px;
+    display: inline-block;
+}
+.nav-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Alata';
+}
+.checkbtn{
+    cursor: pointer;
+    display: none;
+    float: right;
+    margin-top: 10px;
+}
+#check{
+    display: none;
+}
+.banner-text{
+    background: transparent;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 50px;
+    padding: 30px 50px;
+    color: white;
+    font-family: monospace;
+    border: 1px solid white;
+    font-family: 'Josefin Sans';
+}
+.banner-text h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/* Leader section */
+.leader{
+    padding-top: 100px;
+    display: flex;
+    width: 80%;
+    margin:auto;
+}
+.leader-1{
+    height: 400px;
+    width: 60%;
+    background: url(./images/desktop/image-interactive.jpg);
+    background-size: cover;
+}
+.leader-2{
+    height: auto;
+    width: 40%;
+    background: whitesmoke;
+    margin-left: -100px;
+    margin-top: 80px;
+    padding: 30px 10px 30px 60px;   
+}
+.leader-2 h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+}
+.leader-2 p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: hsl(0, 0%, 41%);
+    font-family: 'Alata';
+}
+/* Creation section */
+.creation{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.creation h1{
+    text-transform: uppercase;
+    font-family: 'Alata';
+}
+.creation button{
+    padding: 0 20px;
+    background: white;
+    border: 1px solid black;
+    height: 32px;
+}
+.creation button:hover{
+    background-color: black;
+    color: white;
+}
+/* web image section */
+    .web-image{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .image-1{
+        height: 350px;
+        width:25%;
+        margin-right: 20px;
+        background: url(./images/desktop/image-deep-earth.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img-overlay{
+        background: rgba(172, 153, 153, 0.705);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+    .img-overlay:hover{
+        opacity: 1;
+    }
+    .image-1-text,
+    .image-2-text,
+    .image-3-text,
+    .image-4-text,
+    .image-5-text,
+    .image-6-text,
+    .image-7-text,
+    .image-8-text{
+        position: absolute;
+        color: white;
+        text-transform: uppercase;
+        top: 80%;
+        left: 15%;
+        font-size: 20px;
+    }
+    .image-2{
+        height: 350px;
+        width:25%;
+        margin-right: 20px;
+        background: url(./images/desktop/image-night-arcade.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .image-3{
+        height: 350px;
+        width:25%;
+        margin-right: 20px;
+        background: url(./images/desktop/image-soccer-team.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .image-4{
+        height: 350px;
+        width:25%;
+        margin-right: 20px;
+        background: url(./images/desktop/image-grid.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .image-5{
+        height: 350px;
+        width:25%;
+        margin-right: 20px;
+        background: url(./images/desktop/image-from-above.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .image-6{
+        height: 350px;
+        width:25%;
+        margin-right: 20px;
+        background: url(./images/desktop/image-pocket-borealis.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .image-7{
+        height: 350px;
+        width:25%;
+        margin-right: 20px;
+        background: url(./images/desktop/image-curiosity.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .image-8{
+        height: 350px;
+        width:25%;
+        margin-right: 20px;
+        background: url(./images/desktop/image-fisheye.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+/* Web footer section */
+    .web-footer{
+        height: auto;
+        width: 100%;
+        background: #000;
+        margin-top: 100px;
+        display: flex;
+        color: #fff;
+        padding: 5px 0;
+    }
+    .foot-box1{
+        width: 50%;
+        height: auto;
+        padding: 0 10%;
+    }
+    .foot-box1 ul{
+        display: flex;
+        margin-top: 30px;
+    }
+    .foot-box1 ul li{
+        list-style: none;
+    }
+    .foot-box1 ul li a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 40px;
+    }
+    .foot-box2{
+        width: 50%;
+        height: auto;
+        text-align: right;
+        padding: 0 10%;
+    }
+    .foot-box2 img{
+        margin-right: 15px;
+    }
+    .foot-box2 p {
+        margin-top: 30px;
+    }
+/* Desktops */
+@media only screen and (max-width:1200px){
+    .leader-2 h1{
+        font-size: 32px;
+    }
+}
+/* Laptops */
+@media only screen and (max-width:992px){
+    .nav-header nav ul li {
+        list-style: none;
+        margin-right: 20px;
+    }
+    .banner-text h1{
+        font-size: 35px;
+    }
+    .leader-2 h1{
+        font-size: 28px;
+    }
+    .image-1-text,
+    .image-2-text,
+    .image-3-text,
+    .image-4-text,
+    .image-5-text,
+    .image-6-text,
+    .image-7-text,
+    .image-8-text{
+        position: absolute;
+        color: white;
+        text-transform: uppercase;
+        top: 80%;
+        left: 15%;
+        font-size: 16px;
+    }
+    .image-1,
+    .image-2,
+    .image-3,
+    .image-4,
+    .image-5,
+    .image-6,
+    .image-7,
+    .image-8{
+        height: 280px;
+    }
+    .foot-box1 ul li a{
+        margin-right: 10px;
+    }
+    .foot-box2 img{
+        width: 15px;
+    }
+    .foot-box2 p{
+        font-size: 12px;
+    }
+}
+/* ipad and tablet */
+@media only screen and (max-width:768px){
+    .nav-header nav{
+        width: 80%;
+        margin: auto;
+    }
+    .nav-header nav ul{
+       position: fixed;
+       width: 100%;
+       height: 100vh;
+       background-color: rgb(51, 41, 41);
+       top: 80px;
+       left: -100%;
+       transition: all .5s;
+    }
+    .nav-header nav ul li{
+        display: block;
+        margin: 30px 0;
+        text-transform: uppercase;
+        /* line-height: 30px; */
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .banner-text{
+        width: 35%;
+    }
+    .leader{
+        display: block;
+    }
+    .leader-1{
+        background: url(./images/mobile/image-interactive.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .leader-2{
+        margin: auto;
+        width: 90%;
+        padding: 35px 5% 35px 5%;
+        text-align: center;
+    }
+    .leader-2 h1{
+        font-size: 23px;
+    }
+    .creation{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .creation button{
+        display: none;
+    }
+    .web-image{
+        display: block;
+    }
+    .image-1-text,
+    .image-2-text,
+    .image-3-text,
+    .image-4-text,
+    .image-5-text,
+    .image-6-text,
+    .image-7-text,
+    .image-8-text{
+        top: 60%;
+        left: 10%;
+        font-size: 20px;
+    }
+    .image-1{
+        height: 250px;
+        width:100%;
+        background: url(./images/mobile/image-deep-earth.jpg);
+        background-repeat: no-repeat;
+    }
+    .image-2{
+        height: 250px;
+        width:100%;
+        background: url(./images/mobile/image-night-arcade.jpg);
+        background-repeat: no-repeat;
+    }
+    .image-3{
+        height: 250px;
+        width:100%;
+        background: url(./images/mobile/image-soccer-team.jpg);
+        background-repeat: no-repeat;
+    }
+    .image-4{
+        height: 250px;
+        width:100%;
+        background: url(./images/mobile/image-grid.jpg);
+        background-repeat: no-repeat;
+    }
+    .image-5{
+        height: 250px;
+        width:100%;
+        background: url(./images/mobile/image-from-above.jpg);
+        background-repeat: no-repeat;
+    }
+    .image-6{
+        height: 250px;
+        width:100%;
+        background: url(./images/mobile/image-pocket-borealis.jpg);
+        background-repeat: no-repeat;
+    }
+    .image-7{
+        height: 250px;
+        width:100%;
+        background: url(./images/mobile/image-curiosity.jpg);
+        background-repeat: no-repeat;
+    }
+    .image-8{
+        height: 250px;
+        width:100%;
+        background: url(./images/mobile/image-fisheye.jpg);
+        background-repeat: no-repeat;
+    }
+    .web-footer{
+        display: block;
+    }
+    .foot-box1{
+        text-align: center;
+        margin: auto;
+    }
+    .foot-box1 ul{
+        display: block;
+        margin-top: 0px;
+    }
+    .foot-box1 ul li{
+        margin-top: 20px;
+    }
+    .foot-box2{
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .foot-box2 p{
+        font-size: 16px;
+    }
+}
+/* custom screen */
+@media only screen and (max-width: 576px){
+    header img{
+        width: 100px;
+    }
+    .banner-text{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 20px 0 20px 15px;
+    }
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .foot-box2 p{
+        font-size: 14px;
+    }
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
